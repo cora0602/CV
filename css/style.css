@@ -1,0 +1,334 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  color: #232b34;
+}
+
+h1 {
+  font-family: 'Lora', serif;
+  margin-bottom: 1rem;
+}
+
+h2{
+  font-family: 'Lora', serif;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+h3 {
+  margin-bottom: 1rem;
+}
+
+p {
+  text-align: justify;
+}
+
+.navbar-brand {
+  font-family: 'Lora', serif;
+}
+
+.navbar {
+  background-color: #F1F3F8;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #A7C5EB;
+}
+
+.container-fluid {
+  margin-right: 6rem;
+  margin-left: 6rem;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+.navbar-collapse {
+  flex-basis: 100%;
+  flex-grow: 1;
+  flex-direction: row-reverse;
+}
+
+.section {
+  display: block;
+}
+
+.container-welcome {
+  position: relative;
+  width: 100%;
+  height: 43rem;
+  margin-right: auto;
+  margin-left: auto;
+  overflow: auto;
+}
+
+
+.welcome-headshot {
+  width: 40rem;
+  height: 40rem;
+  position: absolute;
+  display: inline-block;
+  overflow:auto;
+}
+
+.headshot {
+  top: 13rem;
+  left: 9rem;
+  position: absolute;
+}
+
+.welcome-text {
+  position: absolute;
+  display: inline-block;
+  right: 10rem;
+  top: 15rem;
+  height: 20rem;
+  width: 40rem;
+  overflow:auto;
+}
+
+.container-about {
+  position: relative;
+  width: 100%;
+  height: 50rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.about-me-text {
+  position: absolute;
+  height: 20rem;
+  width: 35rem;
+  left: 10rem;
+  top: 18rem;
+}
+
+.aboutme-image {
+  position: absolute;
+  height: 38rem;
+  width: auto;
+  right: 10rem;
+  top: 7rem;
+}
+
+.cv-container {
+  position: relative;
+  width: 100%;
+  height: 30rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.cv-text {
+  position: absolute;
+  height: 10rem;
+  width: 100%;
+  top:15rem;
+  text-align: center;
+}
+.cv-line{
+  text-align: center;
+}
+.project-container {
+  position: relative;
+  width: 100%;
+  height: 40rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.project-text {
+  position: absolute;
+  height: 10rem;
+  width: 100%;
+  text-align: center;
+  top: 7rem;
+}
+
+.product_space_img {
+  position: absolute;
+  height: 25rem;
+  width: auto;
+  left: 7%;
+  top: 15rem;
+}
+
+.humx-img {
+  position: absolute;
+  height: 25rem;
+  width: auto;
+  left: 35%;
+  top: 14rem;
+}
+
+.body-img {
+  position: absolute;
+  height: 18rem;
+  width: auto;
+  right: 8%;
+  top: 18rem;
+}
+
+.tab {
+  overflow: hidden;
+}
+
+.tab button {
+  float: left;
+  border: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+.tabcontent {
+  display: none;
+  position: relative;
+  padding: 2rem 3rem;
+  background-color: #F1F3F8;
+}
+
+.project2-header {
+  text-align: center;
+}
+
+.project3-header {
+  text-align: right;
+}
+
+.mid-p {
+  text-align: center;
+}
+
+.temp {
+  position: relative;
+  width: 100%;
+  height: 20rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.contact_me_container{
+  position: relative;
+  width: 100%;
+  height: 40rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.contact-text{
+  position: absolute;
+  height: 10rem;
+  width: 100%;
+  top:15rem;
+  text-align: center;
+}
+.medium_icon{
+  position: absolute;
+  width: 7rem;
+  left:20%;
+  top:23rem;
+  height:auto;
+}
+
+.wechat-icon{
+  position: absolute;
+  width: 6rem;
+  left: 45%;
+  top:23rem;
+  height:auto;
+}
+
+.bilibili-icon{
+  position: absolute;
+  width: 9rem;
+  left: 68%;
+  top:24rem;
+  height:auto;
+}
+
+.container-footer {
+  position: relative;
+  background-color: #F1F3F8;
+  width: 100%;
+  height: 22rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.linkedin-icon{
+position: absolute;
+width: 3rem;
+height:auto;
+top: 8rem;
+left: 12.5rem;
+}
+
+.instagram-icon{
+  position: absolute;
+  width: 3rem;
+  height:auto;
+  left: 17.5rem;
+  top: 8rem;
+}
+
+.facebook-icon{
+  position: absolute;
+  width: 3rem;
+  height:auto;
+  left: 22.5rem;
+  top: 8rem;
+}
+
+
+.footer{
+  position: absolute;
+  width:100%;
+  bottom: 1rem;
+  text-align:center;
+}
+
+
+
+.connect-text{
+  position: absolute;
+  top: 4rem;
+  left: 11rem;
+}
+
+.email-text{
+  position: absolute;
+  top: 4rem;
+  right: 16rem;
+}
+
+.phone-icon{
+  position: absolute;
+  width: 1.5rem;
+  height:auto;
+  right: 33rem;
+  top: 8rem;
+}
+
+.email-icon{
+  position: absolute;
+  width: 1.5rem;
+  height: auto;
+  right: 33rem;
+  top: 12rem;
+}
+
+.phone-number{
+  position: absolute;
+  right: 22rem;
+  top: 8rem;
+}
+
+.email-add{
+  position: absolute;
+  right: 17.5rem;
+  top: 12rem;
+}
