@@ -1,29 +1,29 @@
-body {
+.body {
   font-family: 'Roboto', sans-serif;
   -webkit-font-smoothing: antialiased;
   color: #232b34;
 }
 
-h1 {
+.h1 {
   font-family: 'Lora', serif;
   margin-bottom: 1rem;
 }
 
-h2{
+.h2{
   font-family: 'Lora', serif;
   margin-bottom: 1rem;
   font-size: 1.2rem;
 }
-h3 {
+.h3 {
   font-family: 'Lora', serif;
   margin-bottom: 1rem;
 }
 
-p {
+.p {
   text-align: justify;
 }
 
-hr{
+.hr{
   border:dotted black 7px;
   border-bottom: none;
   width: 3%;
@@ -32,11 +32,11 @@ hr{
   background-color:white;
 }
 
-a{
+.a{
   color: #232b34;
 }
 
-a:hover{
+.a:hover{
   color: #A7C5EB;
 }
 .navbar-brand {
