@@ -84,16 +84,18 @@ a:hover{
 
 
 .welcome-headshot {
-  width: 40rem;
-  height: 40rem;
+  width: 50rem;
+  height: 50rem;
   position: absolute;
   display: inline-block;
   overflow:auto;
 }
 
 .headshot {
-  top: 13rem;
+  top: 15rem;
   left: 9rem;
+  width:18rem;
+  height:auto;
   position: absolute;
 }
 
@@ -110,10 +112,10 @@ a:hover{
 
 .cv-line{
   border-style:solid;
-  border-width:1px;
+  border-width:0.5px;
   padding: 5px 20px 5px 20px;
   position: absolute;
-  top:17rem;
+  top:14rem;
   text-align: center;
 }
 
